@@ -1,0 +1,9 @@
+def imprime_vogais(frase):
+ 
+    vogais = "aeiouAEIOU"
+    resultado = [letra for letra in frase if letra in vogais]
+    return ''.join(resultado)
+
+frase = "Olá, como você está?"
+vogais = imprime_vogais(frase)
+print("Vogais:", vogais)
